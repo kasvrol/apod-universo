@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+        integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' rel='stylesheet' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="apod-js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="apod-css.css">
+    </style>
+</head>
+<body>
+    <header><h1>APOD NASA - Astronomy Picture Of the Day.</h1></header>
+    <main>
+        <div id="conteudo" class="card" style="width: 40rem;">
+            <div id="imagem" data-corpo id="imagem" style="width: 18rem;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title" id="titulo"></h5>
+              <p class="card-text" id="texto"></p>
+              <p>Autor: <span id="copyright"></span></p>
+                <div>
+                    <div class="pesquisa">
+                        <input type="date" min="1995-06-20" name="data" id="data">
+                        <button id="procurar"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </main>
+    <footer>&copy;Todos os direitos reservados.</footer>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/06/stars-gif-2.gif);
+    
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 3% 0 3% 0;
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    width: 40rem;
+}
+iframe{
+    width: 40rem;
+    height: 30rem;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0 1% 0;
+}
+.card-title{
+    font-family: 'Bebas Neue', cursive;
+}
+.card-body{
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+font-size: 17px;
+}
+.pesquisa{
+    text-align: center;
+}
+input{
+    font-family: 'Bebas Neue', cursive;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1% 0 1% 0;
+    font-family: 'Bebas Neue', cursive;
+}
