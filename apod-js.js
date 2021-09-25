@@ -22,10 +22,12 @@ function apod() {
             copyright[0].innerHTML = resultado.copyright;
 
             if(resultado.media_type == 'image'){
+                $('#imagem-aparecida').hide()
                 $(`<img src="${resultado.hdurl}" id="imagem-aparecida">`).appendTo($("[data-corpo]"));
                 $('#video-aparecida').hide()
             }
             else if(resultado.media_type !== 'image'){
+                $('#imagem-aparecida').hide()
                 $(`<iframe src="${resultado.url}" id="video-aparecida"><iframe>`).appendTo($("[data-corpo]"));
                 $('#imagem-aparecida').hide()
             }
